@@ -471,7 +471,7 @@ section.inner {
 /* === section spacer === */
 
 section.spacer {
-	padding:90px 0 70px;
+	padding:45px 0 0px;
 	color:#fcfcfc;
 }
 
@@ -1698,14 +1698,20 @@ i.icon-white {
  margin-right: auto;
 }
 
-#subt {
-	color: white;
-}
+
 /* Contact Form */
 	#contact-form {
 		overflow: hidden;
 	}
 	#contact-form input[type=submit] {
 		width: 100%;
+	}
+
+	#contenedor {
+		background: #444 url(../img/bg/bg-1.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 	}
 }
